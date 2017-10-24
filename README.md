@@ -1,0 +1,1 @@
+Software bundle to control an IsegNHS20 8-ch Power Supply through its serial/USB connection.
