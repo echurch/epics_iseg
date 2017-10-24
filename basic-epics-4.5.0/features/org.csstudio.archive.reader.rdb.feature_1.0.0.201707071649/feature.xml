@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.csstudio.archive.reader.rdb.feature"
+      label="Archive Reader RDB Feature"
+      version="1.0.0.201707071649"
+      provider-name="ITER">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <plugin
+         id="org.csstudio.archive.rdb"
+         download-size="7"
+         install-size="10"
+         version="4.0.0.201707071649"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.archive.reader.rdb"
+         download-size="37"
+         install-size="68"
+         version="4.2.1.201707071649"
+         unpack="false"/>
+
+</feature>

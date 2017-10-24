@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.csstudio.sns.feature.core"
+      label="Core CSS Components"
+      version="4.1.0.201707071649"
+      provider-name="Kay Kasemir &lt;kasemirk@ornl.gov&gt; - SNS"
+      plugin="org.csstudio.sns.product">
+
+   <description>
+      Core CSS components used by many applications: EPICS Channel Access, ...
+   </description>
+
+   <copyright>
+      Copyright (c) 2007, 2010 Oak Ridge National Laboratory,
+OAK RIDGE, TN, USA.
+   </copyright>
+
+   <license url="http://www.eclipse.org/legal/epl-v10.html">
+      You must accept this license agreement in order to install and
+use this
+software.
+THIS SOFTWARE IS PROVIDED UNDER THIS LICENSE ON AN &quot;../AS IS&quot;
+BASIS. 
+WITHOUT WARRANTY OF ANY KIND, EXPRESSED OR IMPLIED, INCLUDING
+BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR PARTICULAR PURPOSE AND NON-INFRINGEMENT.
+For details, see http://www.eclipse.org/legal/epl-v10.html
+   </license>
+
+   <url>
+      <update label="SNS CSS Update Site" url="http://ics-web.sns.ornl.gov/css/updates/"/>
+   </url>
+
+   <includes
+         id="org.csstudio.core.diirt.feature"
+         version="0.0.1.201707071642"/>
+
+   <plugin
+         id="org.epics.jca"
+         download-size="244"
+         install-size="470"
+         version="2.3.6"/>
+
+   <plugin
+         id="org.epics.caj"
+         download-size="244"
+         install-size="460"
+         version="1.1.15"/>
+
+   <plugin
+         id="org.eclipse.paho.client.mqttv3"
+         download-size="204"
+         install-size="417"
+         version="1.1.0"/>
+
+   <plugin
+         id="org.csstudio.platform.libs.jms"
+         download-size="3947"
+         install-size="4438"
+         version="5.4.2.201704101144"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.utility.sysmon"
+         download-size="22"
+         install-size="32"
+         version="3.0.0.201707071649"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.workspace"
+         download-size="10"
+         install-size="16"
+         version="4.0.0.201707071642"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.platform.libs.jdbc"
+         download-size="6665"
+         install-size="6904"
+         version="1.4.0.201704101144"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.platform.utility.rdb"
+         download-size="17"
+         install-size="27"
+         version="1.6.0.201707071642"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.platform.utility.jms"
+         download-size="61"
+         install-size="108"
+         version="1.1.3.201707071642"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.startup"
+         download-size="26"
+         install-size="48"
+         version="3.2.1.201707071642"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.email"
+         download-size="10"
+         install-size="15"
+         version="1.2.0.201707071649"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.email.ui"
+         download-size="54"
+         install-size="74"
+         version="1.0.3.201707071649"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.apputil"
+         download-size="61"
+         install-size="96"
+         version="3.0.2.201707071649"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.apputil.ui"
+         download-size="210"
+         install-size="334"
+         version="3.2.0.201707071649"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.logging"
+         download-size="17"
+         install-size="27"
+         version="3.2.1.201707071642"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.logging.ui"
+         download-size="150"
+         install-size="199"
+         version="3.2.2.201707071642"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.data"
+         download-size="34"
+         install-size="56"
+         version="3.2.0.201707071642"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.openfile"
+         download-size="7"
+         install-size="12"
+         version="4.5.0.201707071642"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.csdata"
+         download-size="6"
+         install-size="7"
+         version="3.2.0.201707071642"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.ui.util"
+         download-size="191"
+         install-size="357"
+         version="4.0.2.201707071642"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.csdata.clipboard"
+         download-size="5"
+         install-size="5"
+         version="3.0.0.201707071642"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.java"
+         download-size="15"
+         install-size="24"
+         version="3.3.0.201707071642"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.ui.preferences"
+         download-size="6"
+         install-size="8"
+         version="3.2.0.201707071642"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.ui.menu.web"
+         download-size="9"
+         install-size="10"
+         version="3.0.0.201707071649"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.ui.menu"
+         download-size="3"
+         install-size="4"
+         version="3.2.0.201707071642"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.ui.menu.app"
+         download-size="19"
+         install-size="37"
+         version="3.0.0.201707071642"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.ui.help"
+         download-size="54"
+         install-size="66"
+         version="3.2.0.201707071642"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.utility.product"
+         download-size="137"
+         install-size="299"
+         version="1.3.0.201707071642"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.navigator.applaunch"
+         download-size="77"
+         install-size="107"
+         version="1.0.2.201707071649"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.ui.menu.pvscript"
+         download-size="19"
+         install-size="29"
+         version="1.0.0.201707071649"
+         unpack="false"/>
+
+   <plugin
+         id="org.antlr.runtime"
+         download-size="162"
+         install-size="311"
+         version="3.4.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.utility.singlesource"
+         download-size="15"
+         install-size="29"
+         version="4.0.0.201707071642"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.utility.singlesource.rcp"
+         download-size="9"
+         install-size="17"
+         version="4.0.1.201707071642"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.security"
+         download-size="35"
+         install-size="62"
+         version="1.1.1.201707071642"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.security.ui"
+         download-size="27"
+         install-size="47"
+         version="1.0.0.201707071642"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.autocomplete"
+         download-size="255"
+         install-size="333"
+         version="3.2.13.201707071642"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.autocomplete.ui"
+         download-size="88"
+         install-size="174"
+         version="3.2.13.201707071642"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.autocomplete.ui.rcp"
+         download-size="5"
+         install-size="6"
+         version="1.0.0.201707071642"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.autocomplete.logbook"
+         download-size="9"
+         install-size="13"
+         version="1.0.1.201707071649"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.autocomplete.pvmanager.formula"
+         download-size="10"
+         install-size="17"
+         version="1.0.0.201707071642"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.autocomplete.pvmanager.loc"
+         download-size="12"
+         install-size="19"
+         version="1.0.0.201707071642"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.autocomplete.pvmanager.sim"
+         download-size="17"
+         install-size="32"
+         version="1.0.0.201707071642"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.examples"
+         download-size="10"
+         install-size="17"
+         version="1.0.0.201707071649"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.simplepv.pvmanager"
+         download-size="15"
+         install-size="25"
+         version="1.0.0.201707071649"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.startup.helper"
+         download-size="12"
+         install-size="20"
+         version="3.1.0.201707071642"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.utility.product.default"
+         download-size="2"
+         install-size="1"
+         version="1.0.0.201707071642"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.autocomplete.pvmanager.sys"
+         download-size="10"
+         install-size="14"
+         version="1.0.0.201707071642"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.vtype.pv"
+         download-size="133"
+         install-size="250"
+         version="4.5.0.201707071642"
+         unpack="false"/>
+
+   <plugin
+         id="javax.mail"
+         download-size="314"
+         install-size="589"
+         version="1.4.0.v201005080615"
+         unpack="false"/>
+
+   <plugin
+         id="javax.activation"
+         download-size="53"
+         install-size="104"
+         version="1.1.0.v201211130549"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.io"
+         download-size="203"
+         install-size="397"
+         version="2.5.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.collections4"
+         download-size="733"
+         install-size="1690"
+         version="4.1.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.platform.libs.gauges"
+         download-size="1370"
+         install-size="1431"
+         version="7.9.3.201707061351"
+         unpack="false"/>
+
+   <plugin
+         id="org.controlsfx"
+         download-size="973"
+         install-size="2019"
+         version="8.40.12"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.lang"
+         download-size="291"
+         install-size="618"
+         version="2.6.0.v201404270220"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.lang3"
+         download-size="468"
+         install-size="1004"
+         version="3.5.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.utility.batik"
+         download-size="53"
+         install-size="97"
+         version="1.1.0.201707071642"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.batik.bridge"
+         download-size="883"
+         install-size="1821"
+         version="1.7.0.v201011041433"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.batik.css"
+         download-size="347"
+         install-size="720"
+         version="1.7.0.v201011041433"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.batik.dom"
+         download-size="157"
+         install-size="308"
+         version="1.7.1.v201505191845"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.batik.transcoder"
+         download-size="139"
+         install-size="272"
+         version="1.7.0.v201011041433"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.batik.dom.svg"
+         download-size="730"
+         install-size="2133"
+         version="1.7.0.v201011041433"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.batik.ext.awt"
+         download-size="566"
+         install-size="1099"
+         version="1.7.0.v201011041433"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.batik.parser"
+         download-size="91"
+         install-size="182"
+         version="1.7.0.v201011041433"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.batik.svggen"
+         download-size="236"
+         install-size="457"
+         version="1.7.0.v201011041433"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.batik.xml"
+         download-size="46"
+         install-size="137"
+         version="1.7.0.v201011041433"
+         unpack="false"/>
+
+   <plugin
+         id="com.google.guava"
+         download-size="2336"
+         install-size="5213"
+         version="18.0.0.v20161115-1643"
+         unpack="false"/>
+
+   <plugin
+         id="javaewah"
+         download-size="179"
+         install-size="348"
+         version="1.1.6.v20160919-1400"
+         unpack="false"/>
+
+   <plugin
+         id="org.epics.pvDataJava"
+         download-size="291"
+         install-size="553"
+         version="5.0.3"
+         unpack="false"/>
+
+   <plugin
+         id="org.epics.pvAccessJava"
+         download-size="504"
+         install-size="991"
+         version="4.1.3"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.simplepv.vtypepv"
+         download-size="8"
+         install-size="13"
+         version="1.0.0.201707071649"
+         unpack="false"/>
+
+   <plugin
+         id="org.python.jython"
+         download-size="36412"
+         install-size="80870"
+         version="2.7.0.release"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.utility.file"
+         download-size="12"
+         install-size="20"
+         version="1.0.0.201707071649"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.servicemix.bundles.poi"
+         download-size="12816"
+         install-size="32096"
+         version="3.11.1.css2"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.perspectives"
+         download-size="21"
+         install-size="38"
+         version="0.0.1.201707071642"
+         unpack="false"/>
+
+</feature>

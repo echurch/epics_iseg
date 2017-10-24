@@ -1,0 +1,62 @@
+#
+# Simple database and stream protocol file for basic SCPI (IEEE488.2) commands
+#
+
+
+#
+# Short and long form of identification string
+#
+
+record(stringin, "$(P)$(R):debuggg") 
+{
+       field(DESC, "debuggguuuhhhhh")
+       field(DTYP, "stream") 
+       field(SCAN, "Passive") 
+       field(INP, "@asynRecord.proto debuggg $(PORT) $(ADDR)") 
+} 
+
+record(stringin, "$(P)$(R):IDN")
+{
+    field(DESC, "SCPI identification string")
+    field(DTYP, "stream")
+    field(INP,  "@asynRecord.proto getIDN(39) $(PORT) $(ADDR)")
+    field(PINI, "YES")
+}
+
+ 
+# wide format return value.
+record(waveform, "$(P)$(R):IDNwf")
+{
+    field(DESC, "SCPI identification string wide")
+    field(DTYP, "stream")
+    field(INP,  "@asynRecord.proto getIDN(199) $(PORT) $(ADDR)")
+    field(PINI, "YES")
+    field(NELM, "200")
+}
+
+record(bo, "$(P)$(R):SetRemote")
+{
+    field(DESC, "Set into local/remote mode")
+    field(DTYP, "stream")
+    field(OUT,  "@asynRecord.proto setLocRem $(PORT) $(ADDR)")
+    field(ZNAM, "Local")
+    field(ONAM, "Remote")
+    field(PINI, "YES")
+    field(VAL,  "1")
+}
+
+record(bo, "$(P)$(R):RST")
+{
+    field(DESC, "SCPI Reset")
+    field(DTYP, "stream")
+    field(OUT,  "@asynRecord.proto cmd(*RST) $(PORT) $(ADDR)")
+}
+
+record(bo, "$(P)$(R):CLS")
+{
+    field(DESC, "SCPI Clear status")
+    field(DTYP, "stream")
+    field(OUT,  "@asynRecord.proto cmd(*CLS) $(PORT) $(ADDR)")
+}
+
+

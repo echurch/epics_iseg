@@ -1,0 +1,47 @@
+getIDN {
+    out "*IDN?";
+    in "%\$1[^\r\n]";
+    ExtraInput = Ignore;
+}
+
+cmd {
+    out "\$1";
+}
+
+setVON {
+    out ":VOLT ON,(\@\$1)";
+}
+setVOFF {
+    out ":VOLT OFF,(\@\$1)";
+}
+
+setV {
+    out ":VOLT %dV,(\@\$1)";
+}
+getSPV {
+    out ":READ:VOLT? (\@\$1)";
+    in "%d";
+    ExtraInput = Ignore;
+}
+getMV {
+    out ":MEAS:VOLT? (\@\$1)";
+    in "%d";
+    ExtraInput = Ignore;
+}
+getChStatus {
+    out ":CHAN:STAT? (\@\$1)";
+    in "%d";
+    ExtraInput = Ignore;
+}
+
+
+setLocRem {
+    out "SYST:%{LOC|REM}";
+}
+
+
+debuggg { 
+       ExtraInput = Ignore; 
+       out "%s"; 
+       in "%39c"; 
+}

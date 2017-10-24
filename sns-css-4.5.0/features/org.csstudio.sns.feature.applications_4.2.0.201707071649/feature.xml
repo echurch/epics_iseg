@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.csstudio.sns.feature.applications"
+      label="Generic CSS Applications"
+      version="4.2.0.201707071649"
+      provider-name="Kay Kasemir &lt;kasemirk@ornl.gov&gt;, Xihui Chen - SNS">
+
+   <description>
+      Generic CSS applications: Clock, Probe, PV Tree, ...
+   </description>
+
+   <copyright>
+      Copyright (c) 2010 Oak Ridge National Laboratory, OAK RIDGE, TN, USA. All rights reserved.
+   </copyright>
+
+   <license url="http://www.eclipse.org/legal/epl-v10.html">
+      You must accept this license agreement in order to install and use this
+software.
+
+THIS SOFTWARE IS PROVIDED UNDER THIS LICENSE ON AN &quot;../AS IS&quot;
+BASIS. 
+WITHOUT WARRANTY OF ANY KIND, EXPRESSED OR IMPLIED, INCLUDING
+BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR PARTICULAR PURPOSE AND NON-INFRINGEMENT.
+
+For details, see http://www.eclipse.org/legal/epl-v10.html
+   </license>
+
+   <url>
+      <update label="SNS CSS Update Site" url="http://ics-web.sns.ornl.gov/css/updates/"/>
+   </url>
+
+   <includes
+         id="org.csstudio.applications.logbook.feature"
+         version="1.0.0.201707071649"/>
+
+   <includes
+         id="org.csstudio.archive.reader.rdb.feature"
+         version="1.0.0.201707071649"/>
+
+   <includes
+         id="org.csstudio.archive.reader.appliance.feature"
+         version="1.0.0.201707071649"/>
+
+   <plugin
+         id="org.csstudio.diag.epics.pvtree"
+         download-size="205"
+         install-size="267"
+         version="4.5.0.201707071649"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.display.pace"
+         download-size="446"
+         install-size="546"
+         version="4.2.0.201707071649"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.display.pvtable"
+         download-size="198"
+         install-size="316"
+         version="4.4.0.201707071649"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.display.rdbtable"
+         download-size="119"
+         install-size="143"
+         version="3.0.0.201707071649"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.utility.clock"
+         download-size="47"
+         install-size="51"
+         version="4.0.0.201707071649"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.utility.eliza"
+         download-size="22"
+         install-size="29"
+         version="3.0.0.201707071649"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.diag.pvmanager.probe"
+         download-size="145"
+         install-size="211"
+         version="2.0.0.201707071649"
+         unpack="false"/>
+
+</feature>

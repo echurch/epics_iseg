@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.csstudio.display.builder.feature"
+      label="Display Builder"
+      version="0.1.0.201707121821"
+      provider-name="Kay Kasemir - SNS">
+
+   <description>
+      Display Builder Editor and Runtime with JavaFX Representation
+   </description>
+
+   <copyright>
+      Copyright (c) 2015 Oak Ridge National Laboratory, OAK RIDGE,
+TN, USA. All rights reserved.
+   </copyright>
+
+   <license url="http://www.eclipse.org/legal/epl-v10.html">
+      You must accept this license agreement in order to install and use this
+software.
+
+THIS SOFTWARE IS PROVIDED UNDER THIS LICENSE ON AN &quot;../AS IS&quot;
+BASIS.
+WITHOUT WARRANTY OF ANY KIND, EXPRESSED OR IMPLIED, INCLUDING
+BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR PARTICULAR PURPOSE AND NON-INFRINGEMENT.
+
+For details, see http://www.eclipse.org/legal/epl-v10.html
+   </license>
+
+   <plugin
+         id="org.csstudio.display.builder.editor"
+         download-size="253"
+         install-size="545"
+         version="1.0.0.201705091711"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.display.builder.editor.rcp"
+         download-size="1075"
+         install-size="3468"
+         version="1.0.0.201705231553"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.display.builder.model"
+         download-size="5064"
+         install-size="7418"
+         version="1.0.0.201707121542"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.display.builder.rcp"
+         download-size="108"
+         install-size="212"
+         version="1.0.0.201706151922"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.display.builder.representation"
+         download-size="21"
+         install-size="41"
+         version="1.0.0.201705091633"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.display.builder.representation.javafx"
+         download-size="2650"
+         install-size="4940"
+         version="1.0.0.201707121542"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.display.builder.runtime"
+         download-size="118"
+         install-size="261"
+         version="1.0.0.201707111743"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.display.builder.util"
+         download-size="11"
+         install-size="15"
+         version="1.0.0.201701301643"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.javafx"
+         download-size="53"
+         install-size="96"
+         version="1.0.0.201706271542"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.javafx.swt"
+         download-size="8"
+         install-size="12"
+         version="1.0.0.201704181631"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.javafx.rtplot"
+         download-size="212"
+         install-size="426"
+         version="1.0.0.201707121821"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.display.builder.model.rcp"
+         download-size="4"
+         install-size="6"
+         version="1.0.0.201705231501"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.display.builder.examples"
+         download-size="3"
+         install-size="2"
+         version="1.0.0.201605101350"
+         unpack="false"/>
+
+   <plugin
+         id="org.csstudio.platform.libs.gauges"
+         download-size="1370"
+         install-size="1431"
+         version="7.9.3.201707061351"
+         unpack="false"/>
+
+   <plugin
+         id="net.sf.py4j"
+         download-size="112"
+         install-size="223"
+         version="0.10.2.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.io"
+         download-size="203"
+         install-size="397"
+         version="2.5.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.collections4"
+         download-size="733"
+         install-size="1690"
+         version="4.1.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.lang3"
+         download-size="468"
+         install-size="1004"
+         version="3.5.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.controlsfx"
+         download-size="973"
+         install-size="2019"
+         version="8.40.12"
+         unpack="false"/>
+
+   <plugin
+         id="de.codecentric.centerdevice.javafxsvg"
+         download-size="11"
+         install-size="17"
+         version="1.2.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.batik.transcoder"
+         download-size="139"
+         install-size="272"
+         version="1.7.0.v201011041433"
+         unpack="false"/>
+
+</feature>

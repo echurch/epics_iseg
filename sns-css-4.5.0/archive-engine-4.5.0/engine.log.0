@@ -1,0 +1,19 @@
+2017-10-23 16:14:53.624 INFO [Thread 42] org.csstudio.archive.engine.scanner.ScanThread (run) - Scan Thread ends
+2017-10-23 16:14:53.624 INFO [Thread 1] org.csstudio.archive.engine.model.EngineModel (stop) - Stopping archive groups
+2017-10-23 16:14:53.625 INFO [Thread 1] org.csstudio.archive.engine.model.EngineModel (stop) - Stopping writer
+2017-10-23 16:14:53.625 INFO [Thread 41] org.csstudio.archive.engine.model.WriteThread (run) - WriteThread exists
+2017-10-23 16:14:53.629 INFO [Thread 1] org.csstudio.archive.engine.Application (start) - Reading configuration 'demo2'
+2017-10-23 16:14:53.637 INFO [Thread 1] org.csstudio.archive.engine.Application (start) - Read configuration: 1 channels in 0.008 seconds
+2017-10-23 16:14:53.638 INFO [Thread 1] org.csstudio.archive.engine.Application (start) - Running, CA addr list: localhost
+2017-10-23 16:14:53.638 INFO [Thread 43] org.csstudio.archive.engine.model.WriteThread (run) - WriteThread starts
+2017-10-23 16:14:53.639 INFO [Thread 44] org.csstudio.archive.engine.scanner.ScanThread (run) - Scan Thread runs
+2017-10-23 16:15:23.647 WARNING [Thread 43] org.csstudio.archive.engine.model.WriteThread (run) - Error, will try to reconnect
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at org.diirt.util.array.ArrayByte.getByte(ArrayByte.java:67)
+	at org.diirt.util.array.ListByte.getDouble(ListByte.java:34)
+	at org.csstudio.archive.writer.rdb.RDBArchiveWriter.batchSample(RDBArchiveWriter.java:279)
+	at org.csstudio.archive.writer.rdb.RDBArchiveWriter.addSample(RDBArchiveWriter.java:177)
+	at org.csstudio.archive.engine.model.WriteThread.write(WriteThread.java:258)
+	at org.csstudio.archive.engine.model.WriteThread.run(WriteThread.java:182)
+	at java.lang.Thread.run(Thread.java:748)
+

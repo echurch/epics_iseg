@@ -1,0 +1,66 @@
+#
+# Simple database and stream protocol file for basic SCPI (IEEE488.2) commands
+#
+
+
+
+record(ao, "$(P)$(R):SetVoltSP")
+{
+    field(DESC, "Set  output voltage")
+    field(DTYP, "stream")
+    field(OUT,  "@asynRecord.proto setV($(R),VOLT) $(PORT) $(ADDR)")
+    field(EGU,  "Volts")
+    field(PREC, 3)
+#    field(LOPR, "0")
+#    field(HOPR, "6.18")
+#    field(EGUL, "0")
+#    field(EGUF, "6.18")
+#    field(DRVL, "0")
+#    field(DRVH, "6.18")
+}
+
+record(ao, "$(P)$(R):GetVoltSP")
+{
+    field(DESC, "Get output setpoint voltage")
+    field(DTYP, "stream")
+    field(OUT,  "@asynRecord.proto getSPV(($R),VOLT) $(PORT) $(ADDR)")
+    field(EGU,  "Volts")
+    field(SCAN, "Event")
+    field(PREC, 3)
+}
+
+record(ao, "$(P)$(R):GetVoltM")
+{
+    field(DESC, "Get output measured voltage")
+    field(DTYP, "stream")
+    field(OUT,  "@asynRecord.proto getMV(($R),VOLT) $(PORT) $(ADDR)")
+    field(EGU,  "Volts")
+    field(SCAN, "Event")
+    field(PREC, 3)
+}
+
+
+record(bo, "$(P)$(R):SetOn")
+{
+    field(DESC, "Turn output on")
+    field(DTYP, "stream")
+    field(OUT,  "@asynRecord.proto setVON($(R)) $(PORT) $(ADDR)")
+    field(ZNAM, "Off")
+    field(ONAM, "On")
+}
+record(bo, "$(P)$(R):SetOff")
+{
+    field(DESC, "Turn output off")
+    field(DTYP, "stream")
+    field(OUT,  "@asynRecord.proto setVOFF($(R)) $(PORT) $(ADDR)")
+    field(ZNAM, "Off")
+    field(ONAM, "On")
+}
+
+record(stringin, "$(P)$(R):GetChStatus")
+{
+    field(DESC, "SCPI channel status string")
+    field(DTYP, "stream")
+    field(INP,  "@asynRecord.proto getChStatus($(R)) $(PORT) $(ADDR)")
+}
+

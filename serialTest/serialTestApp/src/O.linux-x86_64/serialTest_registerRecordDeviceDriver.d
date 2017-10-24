@@ -1,0 +1,23 @@
+serialTest_registerRecordDeviceDriver.o: \
+ serialTest_registerRecordDeviceDriver.cpp \
+ ../../../../base-3.15.5/include/compilerDependencies.h \
+ ../../../../base-3.15.5/include/compiler/gcc/compilerSpecific.h \
+ ../../../../base-3.15.5/include/epicsStdlib.h \
+ ../../../../base-3.15.5/include/shareLib.h \
+ ../../../../base-3.15.5/include/os/Linux/osdStrtod.h \
+ ../../../../base-3.15.5/include/epicsTypes.h \
+ ../../../../base-3.15.5/include/compilerDependencies.h \
+ ../../../../base-3.15.5/include/errMdef.h \
+ ../../../../base-3.15.5/include/iocsh.h \
+ ../../../../base-3.15.5/include/iocshRegisterCommon.h \
+ ../../../../base-3.15.5/include/registryCommon.h \
+ ../../../../base-3.15.5/include/dbStaticLib.h \
+ ../../../../base-3.15.5/include/dbFldTypes.h \
+ ../../../../base-3.15.5/include/dbBase.h \
+ ../../../../base-3.15.5/include/ellLib.h \
+ ../../../../base-3.15.5/include/dbDefs.h \
+ ../../../../base-3.15.5/include/link.h \
+ ../../../../base-3.15.5/include/cantProceed.h \
+ ../../../../base-3.15.5/include/devSup.h \
+ ../../../../base-3.15.5/include/registryRecordType.h \
+ ../../../../base-3.15.5/include/recSup.h

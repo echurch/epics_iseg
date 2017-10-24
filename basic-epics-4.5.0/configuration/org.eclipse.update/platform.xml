@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1499890749956" transient="false">
+	<site updateable="true" url="platform:/base/" enabled="true" policy="USER-EXCLUDE">
+		<feature id="org.eclipse.e4.rcp" version="1.5.3.v20170228-0512" url="features/org.eclipse.e4.rcp_1.5.3.v20170228-0512/">
+		</feature>
+		<feature id="org.csstudio.applications.opibuilder.edm.feature" version="5.0.0.201707071649" url="features/org.csstudio.applications.opibuilder.edm.feature_5.0.0.201707071649/">
+		</feature>
+		<feature id="org.csstudio.sns.feature.repository.cvs" version="3.2.0.201701161932" url="features/org.csstudio.sns.feature.repository.cvs_3.2.0.201701161932/">
+		</feature>
+		<feature id="org.csstudio.sns.feature.repository.git" version="3.2.0.201703071140" url="features/org.csstudio.sns.feature.repository.git_3.2.0.201703071140/">
+		</feature>
+		<feature id="org.csstudio.display.builder.feature" version="0.1.0.201707121821" url="features/org.csstudio.display.builder.feature_0.1.0.201707121821/">
+		</feature>
+		<feature id="org.eclipse.emf.ecore" version="2.12.0.v20160420-0247" url="features/org.eclipse.emf.ecore_2.12.0.v20160420-0247/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.extras.feature" version="1.2.203.v20170131-1444" url="features/org.eclipse.equinox.p2.extras.feature_1.2.203.v20170131-1444/">
+		</feature>
+		<feature id="org.eclipse.rcp" version="4.6.3.v20170301-0400" url="features/org.eclipse.rcp_4.6.3.v20170301-0400/">
+		</feature>
+		<feature id="org.csstudio.applications.opibuilder.feature" version="5.0.0.201707071649" url="features/org.csstudio.applications.opibuilder.feature_5.0.0.201707071649/">
+		</feature>
+		<feature id="org.csstudio.archive.reader.appliance.feature" version="1.0.0.201707071649" url="features/org.csstudio.archive.reader.appliance.feature_1.0.0.201707071649/">
+		</feature>
+		<feature id="org.csstudio.applications.logbook.feature" version="1.0.0.201707071649" url="features/org.csstudio.applications.logbook.feature_1.0.0.201707071649/">
+		</feature>
+		<feature id="org.csstudio.trends.databrowser3.opiwidget.feature" version="3.2.0.201705011546" url="features/org.csstudio.trends.databrowser3.opiwidget.feature_3.2.0.201705011546/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.rcp.feature" version="1.2.203.v20170131-1444" url="features/org.eclipse.equinox.p2.rcp.feature_1.2.203.v20170131-1444/">
+		</feature>
+		<feature id="org.csstudio.sns.feature.eclipse" version="4.1.1.201706121408" url="features/org.csstudio.sns.feature.eclipse_4.1.1.201706121408/">
+		</feature>
+		<feature id="org.csstudio.trends.databrowser3.feature" version="4.1.0.201707071649" url="features/org.csstudio.trends.databrowser3.feature_4.1.0.201707071649/">
+		</feature>
+		<feature id="org.eclipse.draw2d" version="3.10.100.201606061308" url="features/org.eclipse.draw2d_3.10.100.201606061308/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.user.ui" version="2.2.203.v20170131-1444" url="features/org.eclipse.equinox.p2.user.ui_2.2.203.v20170131-1444/">
+		</feature>
+		<feature id="org.csstudio.sns.feature.applications" version="4.2.0.201707071649" url="features/org.csstudio.sns.feature.applications_4.2.0.201707071649/">
+		</feature>
+		<feature id="org.eclipse.ecf.filetransfer.httpclient4.feature" version="3.13.2.v20160823-2221" url="features/org.eclipse.ecf.filetransfer.httpclient4.feature_3.13.2.v20160823-2221/">
+		</feature>
+		<feature id="org.csstudio.sns.feature.repository" version="3.2.1.201703071140" url="features/org.csstudio.sns.feature.repository_3.2.1.201703071140/">
+		</feature>
+		<feature id="org.eclipse.equinox.p2.core.feature" version="1.3.203.v20170131-1444" url="features/org.eclipse.equinox.p2.core.feature_1.3.203.v20170131-1444/">
+		</feature>
+		<feature id="org.csstudio.archive.reader.rdb.feature" version="1.0.0.201707071649" url="features/org.csstudio.archive.reader.rdb.feature_1.0.0.201707071649/">
+		</feature>
+		<feature id="org.eclipse.ecf.filetransfer.httpclient4.ssl.feature" version="1.1.0.v20160823-2221" url="features/org.eclipse.ecf.filetransfer.httpclient4.ssl.feature_1.1.0.v20160823-2221/">
+		</feature>
+		<feature id="org.csstudio.core.diirt.feature" version="0.0.1.201707071642" url="features/org.csstudio.core.diirt.feature_0.0.1.201707071642/">
+		</feature>
+		<feature id="org.eclipse.ecf.filetransfer.ssl.feature" version="1.1.0.v20160823-2221" url="features/org.eclipse.ecf.filetransfer.ssl.feature_1.1.0.v20160823-2221/">
+		</feature>
+		<feature id="org.eclipse.ecf.core.feature" version="1.3.0.v20160823-2221" url="features/org.eclipse.ecf.core.feature_1.3.0.v20160823-2221/">
+		</feature>
+		<feature id="org.eclipse.ecf.core.ssl.feature" version="1.1.0.v20160823-2221" url="features/org.eclipse.ecf.core.ssl.feature_1.1.0.v20160823-2221/">
+		</feature>
+		<feature id="org.csstudio.sns.feature.core" version="4.1.0.201707071649" url="features/org.csstudio.sns.feature.core_4.1.0.201707071649/" plugin-identifier="org.csstudio.sns.product">
+		</feature>
+		<feature id="org.csstudio.sns.feature.basiccore" version="3.2.1.201704010133" url="features/org.csstudio.sns.feature.basiccore_3.2.1.201704010133/">
+		</feature>
+		<feature id="org.eclipse.emf.common" version="2.12.0.v20160420-0247" url="features/org.eclipse.emf.common_2.12.0.v20160420-0247/">
+		</feature>
+		<feature id="org.csstudio.trends.databrowser3.bobwidget.feature" version="1.0.0.201705231503" url="features/org.csstudio.trends.databrowser3.bobwidget.feature_1.0.0.201705231503/">
+		</feature>
+		<feature id="org.eclipse.gef" version="3.11.0.201606061308" url="features/org.eclipse.gef_3.11.0.201606061308/">
+		</feature>
+		<feature id="org.eclipse.ecf.filetransfer.feature" version="3.13.2.v20160823-2221" url="features/org.eclipse.ecf.filetransfer.feature_3.13.2.v20160823-2221/">
+		</feature>
+	</site>
+</config>
