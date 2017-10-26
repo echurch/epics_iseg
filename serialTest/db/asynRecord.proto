@@ -1,42 +1,63 @@
+
 getIDN {
     out "*IDN?";
+    in "%*c";
     in "%\$1[^\r\n]";
     ExtraInput = Ignore;
 }
 
+
 cmd {
     out "\$1";
+    in "%*c";
+    ExtraInput = Ignore;
 }
 
 setVON {
-    out ":VOLT ON,(\@\$1)";
+    out "\:VOLT ON,(\@\$1)";
+    in "%*c";
+    ExtraInput = Ignore;
 }
+
 setVOFF {
-    out ":VOLT OFF,(\@\$1)";
+    out "\:VOLT OFF,(\@\$1)";
+    in "%*c";
+    ExtraInput = Ignore;
 }
 
 setV {
-    out ":VOLT %dV,(\@\$1)";
+    out "\:VOLT %dV,(\@\$1)";
+    in "%*c";
+    ExtraInput = Ignore;
 }
+
 getSPV {
-    out ":READ:VOLT? (\@\$1)";
+    out "\:READ\:VOLT? (\@\$1)";
+    in "%*c";
+    ExtraInput = Ignore;
     in "%d";
     ExtraInput = Ignore;
 }
 getMV {
-    out ":MEAS:VOLT? (\@\$1)";
+    out "\:MEAS\:VOLT? (\@\$1)";
+    in "%*c";
+    ExtraInput = Ignore;
     in "%d";
     ExtraInput = Ignore;
 }
 getChStatus {
-    out ":CHAN:STAT? (\@\$1)";
+    out "\:READ\:CHAN:STAT? (\@\$1)";
+    in "%*c";
+    ExtraInput = Ignore;
     in "%d";
     ExtraInput = Ignore;
 }
 
 
 setLocRem {
-    out "SYST:%{LOC|REM}";
+    out "SYST\:%{LOC|REM}";
+    in "%*c";
+
 }
 
 

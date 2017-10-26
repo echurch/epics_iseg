@@ -17,15 +17,20 @@ asynSetOption("L0", -1, "bits", "8")
 asynSetOption("L0", -1, "parity", "none")
 asynSetOption("L0", -1, "stop", "1")
 asynSetOption("L0", -1, "clocal", "Y")
-asynSetOption("L0", -1, "crtscts", "Y")
+asynSetOption("L0", -1, "crtscts", "N")
+asynOctetSetInputEos("L0", -1, "\n") 
+asynOctetSetOutputEos("L0", -1, "\n") 
+
+asynSetTraceIOMask("L0", -1,0x2)
+asynSetTraceMask("L0", -1,0x9) 
 
 ## Load record instances
 ###dbLoadRecords("../../db/serialTest.db","user=echurch")
 ###dbLoadRecords("../../db/asynRecord.db","P=PS1607001:,R=000:VMON,PORT=L0,ADDR=0,OMAX=100,IMAX=100")
 
 dbLoadRecords("../../db/asynRecord.db","P=PS1607001:,R=ISEGNHS20,PORT=L0,ADDR=0")
-dbLoadRecords("../../db/asynRecord_Channels.db","P=PS1607001:,R=1,PORT=L0,ADDR=0")
-
+dbLoadRecords("../../db/asynRecord_Channels.db","P=PS1607001:,R=001,PORT=L0,ADDR=0")
+dbl
 
 cd ${TOP}/iocBoot/${IOC}
 iocInit()

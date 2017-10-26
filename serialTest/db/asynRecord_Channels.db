@@ -62,5 +62,6 @@ record(stringin, "$(P)$(R):GetChStatus")
     field(DESC, "SCPI channel status string")
     field(DTYP, "stream")
     field(INP,  "@asynRecord.proto getChStatus($(R)) $(PORT) $(ADDR)")
+    field(SCAN, "Event")
 }
 
