@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Example for XML configuration file syntax -->
+<engineconfig>
+  <!-- Engine can have one or more groups
+       Each group has a name and one or more channels
+    -->
+  <group>
+    <name>Second1607Group</name>
+      <!-- Each channel has a name and
+           a sample period (or expected change period).
+           The period is either in seconds or in HH:MM:SS format.
+           It is either using the 'monitor' or 'scan' sample mode.
+       -->
+      <channel><name>PS1607001:ISEGNHS20:IDNwf</name><period>1.0</period><monitor/></channel>
+      <channel><name>PS1607001:ISEGNHS20:RST</name><period>1.0</period><monitor/></channel>
+      <channel><name>PS1607001:ISEGNHS20:CLS</name><period>1.0</period><monitor/></channel>
+      <!-- now the channel specific PVs -->
+      <channel><name>PS1607001:001:SetVoltSP</name><period>1.0</period><monitor/></channel>
+      <channel><name>PS1607001:001:GetVoltSP</name><period>1.0</period><monitor/></channel>
+      <channel><name>PS1607001:001:SetOn</name><period>1.0</period><monitor/></channel>
+      <channel><name>PS1607001:001:SetOff</name><period>1.0</period><monitor/></channel>
+      <channel><name>PS1607001:001:GetChStatus</name><period>1.0</period><monitor/></channel>
+  </group>
+</engineconfig>

@@ -17,3 +17,27 @@ java.lang.ArrayIndexOutOfBoundsException: 0
 	at org.csstudio.archive.engine.model.WriteThread.run(WriteThread.java:182)
 	at java.lang.Thread.run(Thread.java:748)
 
+2017-11-02 21:36:01.654 CONFIG [Thread 1] org.csstudio.vtype.pv.PVPlugin (start) - PV prefix pva provided by pva in org.csstudio.vtype.pv
+2017-11-02 21:36:01.663 CONFIG [Thread 1] org.csstudio.vtype.pv.PVPlugin (start) - PV prefix ca provided by ca in org.csstudio.vtype.pv
+2017-11-02 21:36:01.663 CONFIG [Thread 1] org.csstudio.vtype.pv.PVPlugin (start) - PV prefix ca provided by epics in org.csstudio.vtype.pv
+2017-11-02 21:36:01.664 CONFIG [Thread 1] org.csstudio.vtype.pv.PVPlugin (start) - PV prefix loc provided by loc in org.csstudio.vtype.pv
+2017-11-02 21:36:01.665 CONFIG [Thread 1] org.csstudio.vtype.pv.PVPlugin (start) - PV prefix sim provided by sim in org.csstudio.vtype.pv
+2017-11-02 21:36:01.665 CONFIG [Thread 1] org.csstudio.vtype.pv.PVPlugin (start) - PV prefix mqtt provided by mqtt in org.csstudio.vtype.pv
+2017-11-02 21:36:01.667 CONFIG [Thread 1] org.csstudio.vtype.pv.PVPlugin (start) - Default PV type ca
+2017-11-02 21:36:01.669 INFO [Thread 1] org.csstudio.archive.engine.Application (start) - Archive Engine 4.0.0.201707071649
+2017-11-02 21:36:01.816 INFO [Thread 1] org.csstudio.archive.engine.server.EngineServer (<init>) - Engine HTTP Server on http://localhost:4812/main
+2017-11-02 21:36:01.817 INFO [Thread 1] org.csstudio.archive.engine.Application (start) - Reading configuration 'Ar-OSI_demo3'
+2017-11-02 21:36:01.988 INFO [Thread 1] org.csstudio.archive.engine.Application (start) - Read configuration: 8 channels in 0.17 seconds
+2017-11-02 21:36:01.989 INFO [Thread 1] org.csstudio.archive.engine.Application (start) - Running, CA addr list: null
+2017-11-02 21:36:01.989 INFO [Thread 28] org.csstudio.archive.engine.model.WriteThread (run) - WriteThread starts
+2017-11-02 21:36:02.017 CONFIG [Thread 1] org.csstudio.vtype.pv.jca.JCAContext (<init>) - Using Pure Java CAJ
+2017-11-02 21:36:02.040 CONFIG [Thread 1] org.csstudio.vtype.pv.jca.JCAContext (<init>) - Channel Access in Java [Java] v1.1.15
+2017-11-02 21:36:02.043 INFO [Thread 37] org.csstudio.archive.engine.scanner.ScanThread (run) - Scan Thread runs
+2017-11-02 21:37:53.166 INFO [Thread 33] org.csstudio.archive.engine.ThrottledLogger (log) - 'PS1607001:ISEGNHS20:CLS': Invalid time stamp 
+2017-11-02 21:37:53.167 INFO [Thread 33] org.csstudio.archive.engine.ThrottledLogger (log) - 'PS1607001:001:SetOff': Invalid time stamp 
+... More messsages suppressed for 1.00 days ....
+2017-11-02 21:38:02.019 WARNING [Thread 28] org.csstudio.archive.writer.rdb.EnumMetaDataHelper (insert) - Channel PS1607001:ISEGNHS20:CLS has undefined state <0>
+2017-11-02 21:38:02.020 WARNING [Thread 28] org.csstudio.archive.writer.rdb.EnumMetaDataHelper (insert) - Channel PS1607001:ISEGNHS20:CLS has undefined state <1>
+2017-11-02 21:38:02.022 INFO [Thread 28] org.csstudio.archive.writer.rdb.RDBArchiveWriter (batchTextSamples) - Value of PS1607001:ISEGNHS20:IDNwf exceeds 80 chars: VStringArray[[iseg Spezialelektronik GmbH,NHS 20 405,, , , ...], size 200, 2017/11/02 21:37:49.081]
+2017-11-02 21:38:02.023 WARNING [Thread 28] org.csstudio.archive.writer.rdb.EnumMetaDataHelper (insert) - Channel PS1607001:ISEGNHS20:RST has undefined state <0>
+2017-11-02 21:38:02.024 WARNING [Thread 28] org.csstudio.archive.writer.rdb.EnumMetaDataHelper (insert) - Channel PS1607001:ISEGNHS20:RST has undefined state <1>
